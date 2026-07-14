@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hello, World!</h1>
+    <h2>Welcome to My Website</h2>
+    <h3>This is a heading</h3>
+    <h4>This is a subheading</h4>
+    <h5>This is a smaller subheading</h5>
+    <h6>This is the smallest heading</h6>
+    <p>This is a paragraph of text. It provides information about the content of the page.</p>
+    <p>This is another paragraph.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. It is placeholder text commonly used to demonstrate the visual form of a document without relying on meaningful content.</p>
+    <div>This is a simple div.</div>
+    <strong>This text is bold.</strong>
+    <b>This text is also bold.</b>
+    <em>This text is italic.</em>
+    <i>This text is also italic.</i>
+    <br>
+    <a href="https://www.psu.ac.th" target="_blank">Visit PSU</a>
+     <!-- The `rel` attribute specifies the relationship between the current document
+         and the linked resource. When using `target="_blank"`, include
+         `rel="noopener noreferrer"` to improve security and privacy by preventing
+         the opened page from accessing `window.opener` and to avoid leaking referrer
+         information in some cases. -->
+    <a href="../week01/hello.html" rel="noopener noreferrer" target="_blank">Visit Hello Page</a>
+    <br>
+    <a href="mailto:pete@gmail.com">Contact Me</a>
+    <br>
+    <a href="tel:+66123456789">Call Me</a>
+    <img src="black speed.jpg" alt="Black speed Logo">
+    <img src="../week01/white speed.jpg" alt="White speed Logo">
+    <br>
+    <ul type="disc">Example of an unordered list:
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+    <ul type="circle">Example of an unordered list with circle bullets:
+        <li>Another Item 1</li>
+        <li>Another Item 2</li>
+        <li>Another Item 3</li>
+    </ul>
+    <ol type="1">Example of an ordered list:
+        <li>Ordered Item 1</li>
+        <li>Ordered Item 2</li>
+        <li>Ordered Item 3</li>
+    </ol>
+    <ol type="A">Example of an ordered list with uppercase letters:
+        <li>Uppercase Item 1</li>
+        <li>Uppercase Item 2</li>
+        <li>Uppercase Item 3</li>
+    </ol>
+   
+    <h2>Table example:</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Company</th>
+                <th>Contact</th>
+                <th>Country</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Company1</td>
+                <td>Contact1</td>
+                <td>Country1</td>
+            </tr>
+            <tr>
+                <td>Company2</td>
+                <td>Contact2</td>
+                <td>Country2</td>
+            </tr>
+        <tr>
+                <td>Company3</td>
+                <td>Contact3</td>
+                <td>Country3</td>
+            </tr>
+            <tr>
+                <td rowspan="2"> Company 4</td>
+                <td>Contact 4 </td>
+                <td>Country4 </td>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Total Companies: 3</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
